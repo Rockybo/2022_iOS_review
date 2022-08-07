@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1048DA74289E9D4500503619 /* Interview01.m in Sources */ = {isa = PBXBuildFile; fileRef = 1048DA73289E9D4500503619 /* Interview01.m */; };
 		4DB403502898E36B00942715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB4034E2898E36B00942715 /* Main.storyboard */; };
 		4DB403522898E36D00942715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DB403512898E36D00942715 /* Assets.xcassets */; };
 		4DB403552898E36D00942715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DB403532898E36D00942715 /* LaunchScreen.storyboard */; };
@@ -43,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1048DA72289E9D4500503619 /* Interview01.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Interview01.h; sourceTree = "<group>"; };
+		1048DA73289E9D4500503619 /* Interview01.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Interview01.m; sourceTree = "<group>"; };
 		4DB403422898E36B00942715 /* Review_OC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Review_OC.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DB4034F2898E36B00942715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DB403512898E36D00942715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -99,6 +102,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1048DA71289E9D1F00503619 /* Interview */ = {
+			isa = PBXGroup;
+			children = (
+				1048DA72289E9D4500503619 /* Interview01.h */,
+				1048DA73289E9D4500503619 /* Interview01.m */,
+			);
+			path = Interview;
+			sourceTree = "<group>";
+		};
 		4DB403392898E36B00942715 = {
 			isa = PBXGroup;
 			children = (
@@ -150,6 +162,7 @@
 		4DB4038F2898E48700942715 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				1048DA71289E9D1F00503619 /* Interview */,
 				4DB403902898E48700942715 /* Other */,
 				4DB403972898E48700942715 /* VC */,
 				4DB4039A2898E48700942715 /* 0802 */,
@@ -338,6 +351,7 @@
 			files = (
 				4DB403AC2898E52C00942715 /* BaseLearningSingleton.m in Sources */,
 				4DB403A32898E4A900942715 /* BaseLearningGCD.m in Sources */,
+				1048DA74289E9D4500503619 /* Interview01.m in Sources */,
 				4DB403AF2898E54700942715 /* BaseLearningKVC_KVO.m in Sources */,
 				4DB4039D2898E48700942715 /* main.m in Sources */,
 				4DB4039C2898E48700942715 /* SceneDelegate.m in Sources */,
