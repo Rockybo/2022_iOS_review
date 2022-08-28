@@ -214,6 +214,24 @@
     });
 }
 
-@end
+- (void)test6 {
+    dispatch_queue_t queue = dispatch_queue_create("com.libolin", DISPATCH_QUEUE_CONCURRENT);
+    
+    dispatch_async(queue, ^{
+        NSLog(@"1");
+    });
+    
+    dispatch_barrier_async(queue, ^{
+        NSLog(@"2");
+    });
+    
+    NSLog(@"3");
+    
+    dispatch_async(queue, ^{
+        NSLog(@"4");
+    });
+    
+    // 3124
+}
 
 @end
